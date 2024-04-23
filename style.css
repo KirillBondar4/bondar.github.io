@@ -1,0 +1,744 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Epilogue';
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+.nav{
+    background-color: #010032;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.block1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.tools ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    list-style-type: none;
+}
+
+.tools li{
+    padding-right: 20px;
+    font-family: 'Epilogue';
+}
+
+.cards{
+    color: white;
+    font-family: 'Epilogue';
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    gap: 20px; 
+}
+
+.header{
+    background-color: #010032;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Epilogue';
+    height: 40vw;   
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+}
+
+.text1 h4{
+    font-size: 4vw;
+    padding-bottom: 1vw;
+}
+
+.text1 p{
+    font-size: 1.4vw;
+    margin-top: 1.5vw;
+}
+
+.button_email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9vw;
+    gap: 20px;
+    height: 2vw;
+    background-color: white;
+    border-radius: 5vw;
+    padding: 0.7vw;
+    margin-top: 2vw;
+}
+
+.button_email a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+}
+
+.button_email svg{
+    width: 2vw;
+    height: 2vw;
+}
+
+.kybok{
+    display: flex;
+    margin-top: 5vw;
+}
+
+.text2{
+    padding-left: 0.5vw;
+}
+
+.one_p{
+    padding-bottom: 1vw;
+    font-size: 1.5vw;
+}
+
+.two_p{
+    font-size: 0.9vw;
+    color: #FFFFFF99;
+}
+
+.kybok svg{
+    width: 5vw;
+    height: 4vw;
+}
+
+.block_img svg{
+    width: 34vw;
+}
+
+.imfo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block3{
+    margin-top: 4vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 400vw;
+}
+
+.about_svg{
+    width: 29vw;
+    height: 5vw;
+    margin-bottom: 4vw;
+}
+
+.dialog svg{
+    width: 23vw;
+}
+
+.dialog p{
+    font-family: 'Epilogue';
+    font-size: 1.5vw;
+    margin-bottom: 5vw;    
+}
+
+.steve{
+    display: flex;
+    align-items: center;
+    height: 5vw;
+}
+
+.name{
+    margin-left: 1vw;
+}
+
+.steve_p_one{
+    font-size: 1.2vw;
+    font-family: 'Epilogue';
+    margin-bottom: 0.5vw;
+}
+
+.steve_p_two{
+    font-size: 0.9vw;  
+    font-family: 'Epilogue';  
+}
+
+.steve svg{
+    width: 5vw;
+}
+
+.text_num{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+}
+
+.reiting{
+    width: 50vw;
+}
+
+.logo_info1{
+    font-size: 3vw;
+    font-family: 'Epilogue';
+    margin-bottom: 3vw;  
+}
+
+.num{
+    color: #4543E8;
+    font-size: 3.4vw;
+    font-family: 'Epilogue';
+}
+
+.num1 p{
+    font-family: 'Epilogue';
+    font-size: 1vw; 
+}
+
+.block4{
+    display: flex;
+    flex-direction: column;
+}
+
+.company{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+
+.company svg{
+    width: 8vw;
+}
+
+.info2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.work svg{
+    width: 90vw;
+    height: 5vw;
+    margin-bottom: 1vw;
+}
+
+.work p{
+    font-size: 5vw;
+    font-family: 'Epilogue';    
+}
+
+.work{
+    margin-bottom: 4vw;
+}
+
+.photo1_2{
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+}
+
+.text1_photo1{
+    font-size: 1.4vw;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    font-family: 'Epilogue';
+}
+
+.text2_photo1{
+    font-size: 0.7vw;
+    font-family: 'Epilogue';
+    line-height: 1vw;
+}
+
+.photo1 img{
+    width: 33vw;
+}
+
+.photo2 img{
+    width: 40vw;
+}
+
+.photo3 img{
+    width: 47vw;
+}
+
+.photo3{
+    margin-top: 4vw;
+    position: relative;
+    left: 5vw;
+}
+
+.photo4 img{
+    width: 34vw;
+}
+
+.photo4_5{
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin-top: 5vw;
+}
+
+.photo5 img{
+    width: 30vw;
+}
+
+.block_violet{
+    margin-top: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8vw;
+    height: 8vw;
+    background-color: #4543E8;
+    font-family: 'Epilogue';
+    color: white;
+}
+
+.text_block{
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+.info3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #010032;
+    margin-top: 6vw;
+    font-family: 'Epilogue';
+    color: white;
+    padding: 4vw;
+}
+
+.text_servis{
+    font-size: 3vw;
+}
+
+.text_servis svg{
+    width: 21vw;
+    height: 1.25vw;
+}
+
+.Branding svg{
+    width: 2.9vw;
+    padding-bottom: 1.2vw;
+    padding-top: 1.2vw;
+    height: 2.9vw;
+}
+
+.text_Branding{
+    font-size: 1.4vw;
+    padding-bottom: 1.2vw;
+    font-family: 'Epilogue';
+}
+
+.more_text_Branding{
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+    line-height: 1.2vw;
+    font-family: 'Epilogue';
+}
+
+.block68{
+    padding-bottom: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Epilogue';
+    color: white;
+    background-color: #010032;
+}
+
+.block68 svg{
+    width: 2.9vw;
+    padding-bottom: 1.2vw;
+    padding-top: 1.2vw;
+    height: 2.9vw;
+}
+
+.start_a p{
+    width: 8vw;
+    background-color: white;
+    color: black;
+    font-size: 1vw;
+    padding: 1vw;
+    border-radius: 20vw;
+    text-align: center;
+}
+
+.block67{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5vw;
+}
+
+.block67 svg{
+    padding-top: 3vw;
+    width: 10vw;
+    height: 2.9vw;
+}
+
+.info4{
+    background-color: #D8D8EB;
+    padding: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_text svg{
+    width: 47vw;
+    height: 2.25vw;
+}
+
+.main_text{
+    text-align: center;
+    font-family: 'Epilogue';
+    font-size: 5vw;
+}
+
+.block66{
+    margin-top: 4vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 86vw;
+}
+
+.white_block{
+    background-color: white;
+    border-radius: 0.5vw;
+    border-bottom-right-radius: 0vw;
+    padding: 3vw;
+    font-family: 'Epilogue';
+}
+
+.zvezda{
+    padding-bottom: 2vw;
+    width: 6vw;
+    height: 1.2vw;
+}
+
+.info_person{
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    gap: 1.2vw;
+    line-height: 0vw;
+}
+
+.name_person{
+    font-size: 1vw;
+}
+
+.info_person{
+    font-size: 0.7vw;
+}
+
+.info_person svg{
+    width: 3.3333vw;
+    height: 3.3333vw;
+}
+
+.strelki{
+    margin-top: 7vw;
+}
+
+.strelki svg{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.block65{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vw;
+    flex-direction: column;
+}
+
+.progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.progress_text{
+    margin-top: 2.4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 66.6667vw;
+    font-family: 'Epilogue';
+}
+
+.progress svg{
+    width: 66.6667vw;
+    height: 1.25vw;
+}
+
+.text_get{
+    font-size: 3vw;
+}
+
+.text_info1{
+    font-size: 1.1vw;
+}
+
+.two_svg{
+    width: 20.8333vw;
+    height: 2.7604vw;
+}
+
+.one_svg{
+    width: 17.1875vw;
+    height: 2.7604vw;
+}
+
+.trii_svg{
+    width: 3.8542vw;
+    height: 2.8125vw;
+}
+
+.hoop{
+    margin-top: 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 66.6667vw;
+}
+
+.block64{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vw;
+    flex-direction: column;
+}
+
+.shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.shop svg{
+    width: 12.2917vw;
+    height: 1.25vw;
+}
+
+.shop p{
+    padding: 2vw;
+    font-family: 'Epilogue';
+    text-align: center;
+    font-size: 3vw;
+}
+
+.photos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.photo img{
+    width: 20.8333vw;
+    height: 20.8333vw;
+}
+
+.viev{
+    margin-top: 4vw;
+    width: 9.7917vw;
+    height: 1.7708vw;
+}
+
+.block63{
+    padding: 4vw;
+}
+
+.vlog_svg svg{
+    width: 7.3958vw;
+    height: 1.25vw;
+    padding-bottom: 2vw;
+}
+
+.text_but{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+}
+
+.text_but p{
+    font-size: 3vw;
+}
+
+.text_but svg{
+    width: 14.2708vw;
+    height: 3.3854vw;
+}
+
+.katalog_rabot img{
+    width: 19.5833vw;
+    height: 12.5vw;
+}
+
+.katalog_rabot{
+    margin-top: 5vw;
+}
+
+.one_rabot, .two_rabot, .trii_rabot{
+    display: flex;
+    margin-bottom: 2.5vw;
+}
+
+.text_rabot{
+    padding-left: 2vw;
+}
+
+.zagolovok_rabot{
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 1.5vw;
+}
+
+.info_rabot{
+    font-size: 1vw;
+}
+
+.vie_next{
+    padding-left: 10vw;
+    width: 6.4062vw;
+    height: 1.875vw;
+}
+.vie_next:hover{
+    background-color: red;
+
+}
+
+.digit{
+    width: 10.7292vw;
+    height: 1.0417vw;
+}
+
+.tecnologi{
+    height: 1.0417vw;
+    width: 13.6458vw;
+}
+
+.photo_1{
+    background: url('img/6.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 52.5vw;
+    height: 26.8333vw;
+}
+
+.info_about{
+    width: 46.5vw;
+    height: 26.8333vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    line-height: 2vw;
+}
+
+.vie_next2{
+    padding-top: 3vw;
+    width: 6.8vw;
+    height: 2vw;
+}
+
+.workk{
+    font-size: 2vw;
+}
+
+.info_about p{
+    font-size: 1vw;
+}
+
+.dva_photo{
+    display: flex;
+}
+
+.photo_2{
+    background: #4543E8;
+}
+
+.footer{
+    background: #010032;
+    padding: 1.4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.contant{
+    width: 66.6667vw;
+    height: 1.25vw;
+}
+
+.big_text{
+    padding-top: 2vw;
+    font-size: 3vw;
+}
+
+.contacts{
+    margin-top: 6vw;
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    font-size: 1vw;
+}
+
+.ymenia, .socheti{
+    line-height: 2vw;
+}
+
+.line{
+    margin-top: 5vw;
+    width: 75vw;
+}
+
+.teml{
+    width: 66.6667vw;
+    height: 2.2917vw;
+    margin-top: 1vw;
+}
+
+.poisk{
+    width: 23.9583vw;
+    height: 4.7396vw;
+}
